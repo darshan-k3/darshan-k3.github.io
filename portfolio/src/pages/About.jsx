@@ -28,7 +28,6 @@ const About = () => {
           <span className="font-normal">C++, Java and MERN </span>stacks.
         </p>
       </div>
-      import Link from 'next/link';
       <div className="flex flex-row m-5">
         <Link
           href="https://www.github.com/darshan-k3/"
