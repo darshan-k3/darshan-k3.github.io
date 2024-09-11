@@ -28,7 +28,7 @@ const skillLogos = {
     matlab: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
     matplotlib:
       "https://upload.wikimedia.org/wikipedia/commons/0/01/Created_with_Matplotlib-logo.svg",
-    react: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    react: "https://upload.wikimedia.org/wikipedia/commons/d/d3/React_Native.png",
     "machine learning":
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png", // Placeholder for now
     security:
@@ -37,6 +37,7 @@ const skillLogos = {
       "https://download.logo.wine/logo/Microsoft_PowerPoint/Microsoft_PowerPoint-Logo.wine.png",
     azure:
       "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
+    "financial services": "https://upload.wikimedia.org/wikipedia/commons/9/97/CISI_Accredited_Training_Provider.png"
   };
 
 export default skillLogos
