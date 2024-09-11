@@ -19,10 +19,10 @@ const About = () => {
       </div>
       <div className="w-3/4 ">
         <p className="text-4xl text-gray-100 font-thin ">
-          Hello, I'm Darshan. I'm a final year{" "}
-          <span className="font-normal">master's</span> student studying at{" "}
-          <span className="font-normal">King's College London</span>. I'm
-          currently working with{" "}
+          Hello, I am Darshan. I&apos;m a final year{" "}
+          <span className="font-normal">master&apos;s</span> student studying at{" "}
+          <span className="font-normal">King&apos;s College London</span>.
+          I&apos;m currently working with{" "}
           <span className="font-normal">Python, Tensorflow, Pandas</span> and
           have experience with{" "}
           <span className="font-normal">C++, Java and MERN </span>stacks.
