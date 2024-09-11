@@ -2,11 +2,17 @@
 import React from "react";
 import ProjectCard from "@/_components/ProjectCard";
 
-const Projects = ({ projects }) => {
-  const points = projects.map((project) => (
-    // <li key={project.id}>{project.description_points}</li>
-    <ProjectCard key={project.id} project={project} />
-  ));
+const Projects = ({ projects = [] }) => {
+  // Safely handle the projects array
+  const points =
+    projects.length > 0 ? (
+      projects.map((project) => (
+        <ProjectCard key={project.id} project={project} />
+      ))
+    ) : (
+      <p>No projects available</p> // Fallback UI in case projects is empty
+    );
+
   return (
     <div id="experience" className="min-w-64">
       <h3 className="text-center m-3 text-3xl">My Projects</h3>

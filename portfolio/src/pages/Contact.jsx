@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("/api/send-email", formData); // Updated to Next.js API
+      const response = await axios.post("/api/send-email", formData);
       if (response.status === 200) {
         alert("Email sent successfully!");
       }
