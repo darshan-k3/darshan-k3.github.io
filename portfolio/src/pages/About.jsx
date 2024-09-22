@@ -7,13 +7,13 @@ const About = () => {
       id="home"
       className="h-screen bg-stone-800 flex flex-col justify-center items-center"
     >
-      <div className=" relative">
+      <div className="relative mt-24 sm:mt-0">
         <img
-          className="w-32 h-32 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+          className="w-32 h-32 sm:w-48 sm:h-48 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
           src="/portfolio.jpg"
           alt="Bordered avatar"
         />
-        <span className="bottom-2 right-2 absolute dark:border-gray-800 rounded-full text-3xl">
+        <span className="bottom-2 right-2 absolute dark:border-gray-800 rounded-full text-6xl">
           👋
         </span>
       </div>
@@ -23,12 +23,17 @@ const About = () => {
           <span className="font-normal">master&apos;s</span> student studying at{" "}
           <span className="font-normal">King&apos;s College London</span>.
           I&apos;m currently working with{" "}
-          <span className="font-normal">Python, Tensorflow, Pandas</span> and
-          have experience with{" "}
-          <span className="font-normal">C++, Java and MERN </span>stacks.
+          <span className="font-normal">
+            CI-CD Pipelines, Event Driven Architectures and Micro-services with
+            gRPC
+          </span>{" "}
+          and have experience using{" "}
+          <span className="font-normal">
+            C++, Java and MLOps with Python and C#.
+          </span>
         </p>
       </div>
-      <div className="flex flex-row m-5 p-3">
+      <div className="flex space-x-6 m-5 p-3 ">
         <Link
           href="https://www.github.com/darshan-k3/"
           passHref
@@ -47,7 +52,7 @@ const About = () => {
               clipRule="evenodd"
             />
           </svg>
-          GitHub
+          <p className="text-xl">GitHub</p>
         </Link>
 
         <Link
@@ -56,14 +61,14 @@ const About = () => {
           passHref
         >
           <svg
-            className="w-4 h-4 me-2"
+            className="w-8 h-6 me-2"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
             viewBox="0 0 448 512"
           >
             <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
           </svg>
-          LinkedIn
+          <p className="text-xl">LinkedIn</p>
         </Link>
       </div>
     </div>
