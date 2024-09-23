@@ -24,8 +24,8 @@ export default async function Home() {
 
   return (
     <>
+      <Navbar></Navbar>
       <div className="h-screen">
-        <Navbar></Navbar>
         <About></About>
         <Projects projects={projects} />
         <Skills></Skills>

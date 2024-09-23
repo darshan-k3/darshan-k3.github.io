@@ -15,7 +15,7 @@ const Projects = ({ projects = [] }) => {
 
   return (
     <div id="experience" className="min-w-64">
-      <h3 className="text-center m-3 text-3xl">My Projects</h3>
+      <h3 className="text-center m-3 text-4xl ">My Projects</h3>
       <div className="flex flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center space-y-8">
           {points}

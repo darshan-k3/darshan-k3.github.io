@@ -30,7 +30,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li
             key={item.id}
-            className={`rounded-full p-2 transition-all ease-in-out duration-300 ${
+            className={`rounded-full p-2 transition-all ease-in duration-300 ${
               selected === item.id ? "animate-in bg-stone-100" : "none"
             }`}
           >
